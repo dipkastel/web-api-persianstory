@@ -1,0 +1,46 @@
+﻿/* The Css By Ali RomeRo */
+ @charset "utf-8"; 
+@font-face{font-family:IRANSans;font-style:normal;font-weight:400;src:url('../fonts/IRANSansWeb(FaNum).eot');src:url('../fonts/IRANSansWeb(FaNum).eot?#iefix') format("embedded-opentype"),url('../fonts/IRANSansWeb(FaNum).woff2') format("woff2"),url('../fonts/IRANSansWeb(FaNum).woff') format("woff"),url('../fonts/IRANSansWeb(FaNum).ttf') format("truetype")}
+
+body {
+	background-color:#EDEDED;
+	color:#666 !important;
+	font: 13px "IRANSans",tahoma !important;
+}
+nav.navbarCustom {
+	background-color:#fff;
+	border-bottom:1px solid #CECECE;
+-webkit-box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.09);
+-moz-box-shadow:    0px 2px 10px 0px rgba(50, 50, 50, 0.09);
+box-shadow:         0px 2px 10px 0px rgba(50, 50, 50, 0.09);
+}
+
+.logo {
+	margin-top:13px;
+	
+}
+.bodyBox {
+	background-color:#fff;
+	border:1px solid #CECECE;
+	-webkit-box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.09);
+	-moz-box-shadow:    0px 2px 10px 0px rgba(50, 50, 50, 0.09);
+	box-shadow:         0px 2px 10px 0px rgba(50, 50, 50, 0.09);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:20px;
+	margin-top:20px;
+}
+.titleBox {
+	font-size:16px;
+	margin-bottom:20px;
+}
+.btn-customB {
+	background-color:#1F52BA;
+	color:#fff;
+	border:0;
+}
+.btn-customB:hover {
+	background-color:#133797;
+	color:#fff;
+}

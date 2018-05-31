@@ -1,0 +1,100 @@
+@font-face{font-family:IRANSans;font-style:normal;font-weight:400;src:url('../fonts/IRANSansWeb(FaNum).eot');src:url('../fonts/IRANSansWeb(FaNum).eot?#iefix') format("embedded-opentype"),url('../fonts/IRANSansWeb(FaNum).woff2') format("woff2"),url('../fonts/IRANSansWeb(FaNum).woff') format("woff"),url('../fonts/IRANSansWeb(FaNum).ttf') format("truetype")}
+
+body {
+	background: #f3f3f3;
+	font-family: 'IRANSans';
+}
+main.main {
+	padding: 12.5rem 0;
+	text-align: center;
+}
+main.main header h2 {
+	
+	font-size: 1.75rem;
+	color: #333;
+	margin: 0 0 3.125rem;
+}
+main.main header h6 {
+	font-size: 16.5625rem;
+	color: #e31e24;
+	font-weight: bold;
+	height: 13.5rem;
+	margin: 0;
+	
+}
+.search_box {
+	display: inline-block;
+	width: 35%;
+	margin-top: 3.125rem;
+}
+.search_box form {
+	float: right;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+.search_box form input[type="text"] {
+	float: right;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	width: -moz-calc(100% - 1.875rem);
+    width: -webkit-calc(100% - 1.875rem);
+    width: calc(100% - 1.875rem);
+	background: none;
+	height: 4.0625rem;
+	padding: 0 0.625rem;
+	border-bottom: 1px solid #eaeaea;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	font-size: 18px;
+}
+.search_box form button {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	float: right;
+	width: 1.875rem;
+	background: none;
+	border-bottom: 1px solid #eaeaea;
+	height: 4.0625rem;
+	line-height: 4.8rem;
+	text-align: center;
+	font-size: 1.875rem;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	color: #9b9b9b;
+	padding: 0;
+}
+.search_box form input[type="text"]:hover,
+.search_box form button:hover {
+	color: #333;
+}
+.search_box form input[type="text"]:focus,
+.search_box form input[type="text"]:focus + button {
+	border-bottom-color: #e31e24;
+	color: #e31e24;
+}
+.rock {
+	position: relative;
+	margin-top: 5rem;
+}
+.rock img {
+	max-width: 100%
+}
+.rock .alien_right {
+	position: absolute;
+	right: 30%;
+	top: -55px;
+}
+.rock .alien_left {
+	position: absolute;
+	left: 35%;
+	top: 0;
+}
+.return  {
+	padding: 2rem 0;
+}
